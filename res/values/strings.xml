@@ -7180,4 +7180,7 @@
     <!-- Display Interface Options -->
     <string name="display_category_interface_options_title">Interface</string>
 	
+    <!-- Font size sample text -->
+    <string name="font_size_sample">Font size</string>
+	
 </resources>
