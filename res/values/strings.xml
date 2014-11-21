@@ -7269,5 +7269,14 @@
     <string name="battery_title">Battery</string>
     <string name="battery2_summary">Customize battery icons and percentage</string>
     <string name="display_category_batteryclock_options_title">Battery and clock options</string>	
+    <string name="display_category_statusbar_options_title">Status bar options</string>
+
+	
+    <!-- Status bar quick qs pulldown -->
+    <string name="title_quick_pulldown">Quick pulldown</string>
+    <string name="summary_quick_pulldown">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
 	
 </resources>
