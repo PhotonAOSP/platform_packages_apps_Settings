@@ -7228,4 +7228,12 @@
     <string name="double_tap_to_sleep_title">Status bar</string>
     <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
 	
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Enable search bar in recents menu</string>
+    <string name="recents_show_searchbar_summary">Enable/disable the search bar in the recents menu</string>
+	
+    <!-- Photon Recents settings -->
+    <string name="recents_panel_settings_title">Recents apps</string>
+
+	
 </resources>

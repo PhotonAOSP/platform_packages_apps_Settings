@@ -10,5 +10,9 @@
     <PreferenceScreen
         android:key="notification_drawer_general_category"
         android:title="@string/notification_drawer_screen_title" />
-
+	
+    <PreferenceScreen
+        android:key="recent_apps_general_category"
+        android:title="@string/recents_panel_settings_title" />
+		
 </PreferenceScreen>

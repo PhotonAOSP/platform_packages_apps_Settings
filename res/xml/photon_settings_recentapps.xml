@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+	<SwitchPreferance
+        android:key="recents_show_search_bar"
+        android:title="@string/recents_show_searchbar"
+        android:summary="@string/recents_show_searchbar_summary"
+        android:defaultValue="false" />
+		
+</PreferenceScreen>
