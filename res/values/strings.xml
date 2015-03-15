@@ -7186,7 +7186,7 @@
     <!-- Photon Gesture settings -->
     <string name="photon_settings_gestures_title">Gestures</string>
     <string name="other_gestures">Other gestures</string>
-
+    <string name="sleep_gestures">Sleep gestures</string>
 	
     <!-- Three finger screenshot gesture -->
     <string name="three_finger_gesture">Three finger gesture</string>
@@ -7219,5 +7219,9 @@
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     <string name="power_menu_title">Power menu</string>	
+	
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Navigation bar</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double tap navigation bar to put the device to sleep</string>
 	
 </resources>
