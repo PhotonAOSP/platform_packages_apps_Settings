@@ -7190,7 +7190,7 @@
 	
     <!-- Three finger screenshot gesture -->
     <string name="three_finger_gesture">Three finger gesture</string>
-    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers downwards to take a screenshot</string>
 	
     <!-- Photon Button settings -->
     <string name="photon_settings_buttons_title">Buttons</string>
