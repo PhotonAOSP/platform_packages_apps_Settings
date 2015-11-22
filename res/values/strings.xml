@@ -7036,4 +7036,9 @@
 
     <!-- Description of feature to change color setting for the display [CHAR LIMIT=NONE] -->
     <string name="picture_color_mode_desc">Use sRGB</string>
+	
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">PhotonAOSP build date</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+
 </resources>
