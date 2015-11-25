@@ -7085,4 +7085,8 @@
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
 	
+    <!-- About phone screen, Photon version of ROM -->
+    <string name="photon_version">PhotonAOSP version</string>
+    <string name="photon_version_default">Unknown</string>
+	
 </resources>
