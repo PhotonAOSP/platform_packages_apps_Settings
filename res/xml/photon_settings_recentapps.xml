@@ -4,7 +4,13 @@
         android:title="@string/recent_apps_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-	<SwitchPreferance
+    <SwitchPreference
+        android:key="recents_full_screen"
+        android:title="@string/recents_show_fullscreen"
+        android:summary="@string/recents_fullscreen_summary"
+        android:defaultValue="false" />
+		
+    <SwitchPreference
         android:key="recents_show_search_bar"
         android:title="@string/recents_show_searchbar"
         android:summary="@string/recents_show_searchbar_summary"
