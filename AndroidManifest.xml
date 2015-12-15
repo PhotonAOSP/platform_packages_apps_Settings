@@ -2438,6 +2438,10 @@
                 android:value="true" />
         </activity>
 
+        <!-- BUILD TWEAKS START -->
+        <activity android:name=".photon.CustomizationSettings" />
+        <!-- BUILD TWEAKS END -->
+		
         <activity android:name=".notificationlight.NotificationLightSettings" />
         <activity android:name=".notificationlight.BatteryLightSettings" />
 

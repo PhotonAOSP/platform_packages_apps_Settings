@@ -74,10 +74,18 @@
 
     <!-- CUSTOMIZATIONS -->
     <dashboard-category
-            android:id="@+id/sirius_section"
-            android:title="@string/header_category_sirius" >
+            android:id="@+id/photon_section"
+            android:title="@string/header_category_photon" >
 
         <!-- ROM TWEAKS -->
+	
+        <dashboard-tile
+                android:id="@+id/photon_settings_customization"
+                android:title="@string/photon_settings_customization_title"
+                android:fragment="com.android.settings.photon.CustomizationSettings" 
+        		android:icon="@drawable/ic_settings_interface" 
+				/>
+		
         <dashboard-tile
                 android:id="@+id/bitsyko_layers"
                 android:icon="@drawable/ic_bitsyko_layers"
@@ -102,7 +110,23 @@
                 android:fragment="com.android.settings.HomeSettings"
                 android:icon="@drawable/ic_settings_home"
                 />
+				
+        <!-- Buttons-->
+        <dashboard-tile
+                android:id="@+id/photon_settings_buttons"
+                android:title="@string/photon_settings_buttons_title"
+                android:fragment="com.android.settings.ButtonSettings" 
+        		android:icon="@drawable/ic_settings_buttons" 
+				/>
 
+		<!-- Gestures -->
+        <dashboard-tile
+                android:id="@+id/photon_settings_gestures"
+                android:title="@string/photon_settings_gestures_title"
+                android:fragment="com.android.settings.GestureSettings" 
+        		android:icon="@drawable/ic_settings_gestures" 
+				/>
+				
         <!-- Display -->
         <dashboard-tile
                 android:id="@+id/display_settings"

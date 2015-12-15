@@ -7046,7 +7046,7 @@
 	
 	<!-- BitSyko Layers -->
     <string name="bitsyko_layers">Layers</string>
-    <string name="header_category_sirius">PhotonAOSP</string>
+    <string name="header_category_photon">PhotonAOSP</string>
 	
 	<!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No need, development settings are enabled by default.</string>
@@ -7182,5 +7182,21 @@
 	
     <!-- Font size sample text -->
     <string name="font_size_sample">Font size</string>
+	
+    <!-- Photon Gesture settings -->
+    <string name="photon_settings_gestures_title">Gestures</string>
+	
+    <!-- Photon Button settings -->
+    <string name="photon_settings_buttons_title">Buttons</string>
+	
+    <!-- Photon Menu -->
+    <string name="photon_settings_customization_title">Customization</string>
+    <string name="photon_menu_customization">Customization</string>
+    <string name="status_bar_screen_title">Status bar</string>
+    <string name="notification_drawer_screen_title">Notification drawer</string>
+	
+    <!-- About PhotonAOSP -->
+    <string name="photon_about_title">About PhotonAOSP</string>
+    <string name="photon_about_summary">Learn more about this ROM</string>
 	
 </resources>
