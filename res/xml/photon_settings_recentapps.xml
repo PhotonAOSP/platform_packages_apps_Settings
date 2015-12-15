@@ -4,23 +4,23 @@
         android:title="@string/recent_apps_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <SwitchPreference
-        android:key="recents_full_screen"
-        android:title="@string/recents_show_fullscreen"
-        android:summary="@string/recents_fullscreen_summary"
-        android:defaultValue="false" />
+        <com.android.settings.preference.SystemSettingSwitchPreference
+			android:key="recents_full_screen"
+			android:title="@string/recents_show_fullscreen"
+			android:summary="@string/recents_fullscreen_summary"
+			android:defaultValue="false" />
 		
-    <SwitchPreference
-        android:key="recents_show_search_bar"
-        android:title="@string/recents_show_searchbar"
-        android:summary="@string/recents_show_searchbar_summary"
-        android:defaultValue="true" />
+        <com.android.settings.preference.SystemSettingSwitchPreference
+			android:key="recents_show_search_bar"
+			android:title="@string/recents_show_searchbar"
+			android:summary="@string/recents_show_searchbar_summary"
+			android:defaultValue="true" />
 		
-    <SwitchPreference
-        android:key="show_clear_all_recents"
-        android:title="@string/show_clear_all_recents_button_title"
-        android:summary="@string/show_clear_all_recents_button_summary"
-        android:defaultValue="false" />
+        <com.android.settings.preference.SystemSettingSwitchPreference
+			android:key="show_clear_all_recents"
+			android:title="@string/show_clear_all_recents_button_title"
+			android:summary="@string/show_clear_all_recents_button_summary"
+			android:defaultValue="false" />
 
     <ListPreference
         android:key="recents_clear_all_location"
@@ -30,11 +30,11 @@
         android:defaultValue="3"
         android:dependency="show_clear_all_recents" />
 		
-    <SwitchPreference
-        android:key="recents_clear_all_dismiss_all"
-        android:title="@string/recents_clear_all_dismiss_all_title"
-        android:summary="@string/recents_clear_all_dismiss_all_summary"
-        android:defaultValue="true"
-        android:dependency="show_clear_all_recents" />
+        <com.android.settings.preference.SystemSettingSwitchPreference
+			android:key="recents_clear_all_dismiss_all"
+			android:title="@string/recents_clear_all_dismiss_all_title"
+			android:summary="@string/recents_clear_all_dismiss_all_summary"
+			android:defaultValue="true"
+			android:dependency="show_clear_all_recents" />
 		
 </PreferenceScreen>
