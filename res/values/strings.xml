@@ -7233,7 +7233,6 @@
     <string name="recents_show_searchbar_summary">Enable/disable the search bar in the recents menu</string>
 	
     <!-- Photon Recents settings -->
-    <string name="recents_panel_settings_title">Recents apps</string>
+    <string name="recents_apps_title">Recents apps</string>
 
-	
 </resources>
