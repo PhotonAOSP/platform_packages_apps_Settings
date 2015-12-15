@@ -7197,7 +7197,7 @@
 	
     <!-- Photon Menu -->
     <string name="photon_settings_customization_title">Customization</string>
-    <string name="photon_menu_customization">Customization</string>
+    <string name="photon_settings_customization">Customization</string>
     <string name="status_bar_screen_title">Status bar</string>
     <string name="notification_drawer_screen_title">Notification drawer</string>
 	
@@ -7233,7 +7233,7 @@
     <string name="recents_show_searchbar_summary">Enable/disable the search bar in the recents menu</string>
 	
     <!-- Photon Recents settings -->
-    <string name="recents_apps_title">Recents apps</string>
+    <string name="recent_apps_title">Recents apps</string>
 
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Clear all button</string>
