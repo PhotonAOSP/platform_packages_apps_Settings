@@ -1259,12 +1259,6 @@ public class SettingsActivity extends Activity
                     if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_WIFI)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.mobile_networks) {
-                    // Remove Mobile Data Settings if Mobile network is not available (wifi only).
-                    if (isSecondaryUser || Utils.isWifiOnly(getApplicationContext())
-                || mUm.hasUserRestriction(UserManager.DISALLOW_CONFIG_MOBILE_NETWORKS)) {
-                        removeTile = true;
-                    }
                 } else if (id == R.id.bluetooth_settings) {
                     // Remove Bluetooth Settings if Bluetooth service is not available.
                     if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH)) {
